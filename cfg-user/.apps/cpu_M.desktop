@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=CPU Decrease
+Exec=~/scripts/__openbox_cpufreq_dynamic.sh 800 -200
+Icon=/home/vermaden/.icons/vermaden/cpu_M.png
+

@@ -1,0 +1,63 @@
+! defs
+#define VER_black0       #303030
+#define VER_black8       #666666
+#define VER_red1         #ff6565
+#define VER_red9         #ff8d8d
+#define VER_green2       #93d44f
+#define VER_green10      #c8e7a8
+#define VER_yellow3      #ce5c00
+#define VER_yellow11     #f57900
+#define VER_blue4        #537dba
+#define VER_blue12       #6798d7
+#define VER_magenta5     #b7416e
+#define VER_magenta13    #e16a98
+#define VER_cyan6        #89b6e2
+#define VER_cyan14       #46a4ff
+#define VER_white7       #cccccc
+#define VER_white15      #ffffff
+#define VER_back         #222222
+#define VER_fore         #aaaaaa
+#define VER_curfore      #93a1a1
+#define VER_curback      #93a1a1
+
+! opts
+*background:             VER_back
+*foreground:             VER_fore
+*fading:                 40
+*fadeColor:              VER_back
+*cursorColor:            VER_curfore
+*pointerColorBackground: VER_curback
+*pointerColorForeground: VER_curfore
+
+! black dark/light
+*color0:                 VER_black0
+*color8:                 VER_black8
+
+! red dark/light
+*color1:                 VER_red1
+*color9:                 VER_red9
+
+! green dark/light
+*color2:                 VER_green2
+*color10:                VER_green10
+
+! yellow dark/light
+*color3:                 VER_yellow3
+*color11:                VER_yellow11
+
+! blue dark/light
+*color4:                 VER_blue4
+*color12:                VER_blue12
+
+! magenta dark/light
+*color5:                 VER_magenta5
+*color13:                VER_magenta13
+
+! cyan dark/light
+*color6:                 VER_cyan6
+*color14:                VER_cyan14
+
+! white dark/light
+*color7:                 VER_white7
+*color15:                VER_white15
+

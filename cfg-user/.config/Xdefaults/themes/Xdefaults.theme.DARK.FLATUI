@@ -1,0 +1,106 @@
+! #1abc9c    Turquoise
+! #16a085    Green sea
+! #2ecc71    Emerald
+! #27ae60    Nephritis
+! #3498db    Peter river
+! #2980b9    Belize hole
+! #9b59b6    Amethyst
+! #8e44ad    Wisteria
+! #34495e    Wet asphalt
+! #2c3e50    Midnight blue
+! #f1c40f    Sun flower
+! #f39c12    Orange
+! #e67e22    Carrot
+! #d35400    Pumpkin
+! #e74c3c    Alizarin
+! #c0392b    Pomegranate
+! #ecf0f1    Clouds
+! #bdc3c7    Silver
+! #95a5a6    Concrete
+! #7f8c8d    Asbestos
+
+! defs
+! Wet asphalt
+#define FUI_black0       #34495e
+! Asbestos
+#define FUI_black8       #7f8c8d
+! Pomegranate
+#define FUI_red1         #c0392b
+! Alizarin
+#define FUI_red9         #e74c3c
+! Nephritis
+#define FUI_green2       #27ae60
+! Emerald
+#define FUI_green10      #2ecc71
+! Pumpkin
+#define FUI_yellow3      #d35400
+! Carrot
+#define FUI_yellow11     #e67e22
+! Belize hole
+! #define FUI_blue4        #2980b9
+#define FUI_blue4        #49a0d9
+! Peter river
+! #define FUI_blue12       #3498db
+#define FUI_blue12       #54b8fb
+! Wisteria
+#define FUI_magenta5     #8e44ad
+! Amethyst
+#define FUI_magenta13    #9b59b6
+! Green sea
+#define FUI_cyan6        #16a085
+! Turquoise
+#define FUI_cyan14       #1abc9c
+! Silver
+#define FUI_white7       #bdc3c7
+! Clouds
+#define FUI_white15      #ecf0f1
+! Midnight blue
+#define FUI_back         #2c3e50
+! Clouds
+#define FUI_fore         #bdc3c7
+! Pumpkin
+#define FUI_curfore      #d35400
+! Pumpkin
+#define FUI_curback      #d35400
+
+! opts
+*background:             FUI_back
+*foreground:             FUI_fore
+*fading:                 40
+*fadeColor:              FUI_back
+*cursorColor:            FUI_curfore
+*pointerColorBackground: FUI_curback
+*pointerColorForeground: FUI_curfore
+
+! black dark/light
+*color0:                 FUI_black0
+*color8:                 FUI_black8
+
+! red dark/light
+*color1:                 FUI_red1
+*color9:                 FUI_red9
+
+! green dark/light
+*color2:                 FUI_green2
+*color10:                FUI_green10
+
+! yellow dark/light
+*color3:                 FUI_yellow3
+*color11:                FUI_yellow11
+
+! blue dark/light
+*color4:                 FUI_blue4
+*color12:                FUI_blue12
+
+! magenta dark/light
+*color5:                 FUI_magenta5
+*color13:                FUI_magenta13
+
+! cyan dark/light
+*color6:                 FUI_cyan6
+*color14:                FUI_cyan14
+
+! white dark/light
+*color7:                 FUI_white7
+*color15:                FUI_white15
+

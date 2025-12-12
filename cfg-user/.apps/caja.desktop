@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Caja
+Exec=caja --no-desktop
+Icon=/home/vermaden/.icons/vermaden/thunar.png
+

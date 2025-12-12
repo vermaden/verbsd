@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=NFS
+# Exec=~/scripts/nfs.sh
+Exec=~/scripts/sshfs.sh
+Icon=/home/vermaden/.icons/vermaden/share.png
+

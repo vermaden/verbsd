@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Midori
+Exec=midori -p
+Icon=/home/vermaden/.icons/vermaden/midori1.png
+

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Deadbeef
+Exec=deadbeef --stop
+Icon=/home/vermaden/.icons/vermaden/player-stop.png
+

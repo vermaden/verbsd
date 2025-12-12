@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Deadbeef
+Exec=deadbeef --play
+Icon=/home/vermaden/.icons/vermaden/player-play.png
+

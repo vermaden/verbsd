@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Deadbeef
+Exec=deadbeef --next
+Icon=/home/vermaden/.icons/vermaden/player-next.png
+

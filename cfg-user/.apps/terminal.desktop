@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Terminal
+Exec=~/scripts/xterm.sh
+Icon=/home/vermaden/.icons/vermaden/terminal.png
+

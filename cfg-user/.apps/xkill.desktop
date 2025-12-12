@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=xkill
+Exec=/usr/local/bin/xkill
+Icon=/home/vermaden/.icons/vermaden/pirate.png
+

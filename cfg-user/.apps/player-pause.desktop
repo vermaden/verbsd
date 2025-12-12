@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Deadbeef
+Exec=deadbeef --toggle-pause
+Icon=/home/vermaden/.icons/vermaden/player-pause.png
+

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=CPU Low
+Exec=~/scripts/__openbox_cpufreq.sh 0 0
+Icon=/home/vermaden/.icons/vermaden/cpu_L.png
+

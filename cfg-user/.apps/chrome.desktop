@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Chrome
+Exec=/usr/local/bin/linux-chrome 
+Icon=/home/vermaden/.config/openbox/icons/chrome.colors.png
+

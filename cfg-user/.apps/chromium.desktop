@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Chromium
+Exec=chrome --enable-features=Vulkan,VulkanFromANGLE,DefaultANGLEVulkan
+# Exec=chrome
+# Exec=chrome --ignore-certificate-errors
+Icon=/home/vermaden/.icons/vermaden/chromium.png
+

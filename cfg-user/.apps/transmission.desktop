@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Transmission
+Exec=transmission-gtk
+Icon=/home/vermaden/.icons/vermaden/trans.png
+
