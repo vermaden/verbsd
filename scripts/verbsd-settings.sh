@@ -20,7 +20,7 @@ __error() {
   BE="${PREFIX}-${VER}"
   BEDIR="/var/tmp/${BE}"
   BASEDIR="/jail/BASE"
-  DISTLIST="base kernel lib32 src"
+  DISTLIST="base kernel lib32"
   POOL="zroot"
   THEUSER="vermaden"
   THEUSERPASSWD="asd"
@@ -83,7 +83,6 @@ graphics/djview4
 graphics/djvulibre
 graphics/drm-kmod
 graphics/feh
-graphics/fusefs-gphotofs
 graphics/gimp
 graphics/GraphicsMagick
 graphics/jhead
@@ -121,7 +120,6 @@ net/dhcping
 net/gitup
 net/ifstat
 net/liferea
-net/mtr-nox11
 net/ngrep
 net/rdesktop
 net/rsync
@@ -137,7 +135,7 @@ print/pdfarranger
 print/pdftk
 print/psutils
 print/splix
-security/clusterssh
+security/p5-App-ClusterSSH
 security/doas
 security/keepassxc
 security/nmap
@@ -149,7 +147,7 @@ shells/zsh-autosuggestions
 shells/zsh-completions
 shells/zsh-syntax-highlighting
 sysutils/archivemount
-sysutils/automount
+filesystems/automount
 sysutils/beadm
 sysutils/bfs
 sysutils/bhyve-firmware
@@ -161,7 +159,7 @@ sysutils/checkrestart
 sysutils/coreutils
 sysutils/cpufetch
 sysutils/daemontools
-sysutils/darling-dmg
+filesystems/darling-dmg
 sysutils/debootstrap
 sysutils/detox
 sysutils/dmg2img
@@ -174,17 +172,17 @@ sysutils/exa
 sysutils/eza
 sysutils/exfat-utils
 sysutils/freecolor
-sysutils/fusefs-exfat
-sysutils/fusefs-ext2
-sysutils/fusefs-hfsfuse
-sysutils/fusefs-jmtpfs
-sysutils/fusefs-libs
-sysutils/fusefs-lkl
-sysutils/fusefs-ntfs
-sysutils/fusefs-s3fs
-sysutils/fusefs-simple-mtpfs
-sysutils/fusefs-sshfs
-sysutils/fusefs-zip
+filesystems/fusefs-exfat
+filesystems/fusefs-ext2
+filesystems/fusefs-hfsfuse
+filesystems/fusefs-jmtpfs
+filesystems/fusefs-libs
+filesystems/fusefs-lkl
+filesystems/fusefs-ntfs
+filesystems/fusefs-s3fs
+filesystems/fusefs-simple-mtpfs
+filesystems/fusefs-sshfs
+filesystems/fusefs-zip
 sysutils/grub2-bhyve
 sysutils/htop
 sysutils/hwstat
@@ -227,7 +225,7 @@ textproc/gsed
 textproc/html2text
 textproc/jq
 textproc/pdfgrep
-textproc/sgrep
+textproc/sgrep2
 textproc/xmlcatmgr
 www/aria2
 www/chromium
@@ -268,7 +266,7 @@ x11/rxvt-unicode
 x11/sakura
 x11/tint
 x11/virtualgl
-x11/wmctrl
+x11/wmctrl-fork
 x11/xautolock
 x11/xbindkeys
 x11/xcb
@@ -282,4 +280,3 @@ x11/xorg
 x11/xxkb
 x11/zenity"
 
-exit 0
